@@ -118,3 +118,11 @@ SGFzaHsABjoKQHVzZWR7AA==--e0fad217bd4cb5a50ecf59887b62c4a08f63fc14
   Parameters: {"action"=>"properties", "controller"=>"rails/info"}
   [4;35;1mSQL (0.004382)[0m   [0mSELECT version FROM schema_migrations[0m
 Completed in 0.27257 (3 reqs/sec) | Rendering: 0.00915 (3%) | DB: 0.00438 (1%) | 200 OK [http://localhost/rails/info/properties]
+  [4;36;1mSQL (0.003869)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.003407)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
